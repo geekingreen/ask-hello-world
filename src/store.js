@@ -29,7 +29,7 @@ var store = (function() {
           S: this._session.user.userId
         },
         appName: {
-          S: 'HelloFed'
+          S: 'HelloWorld'
         },
         data: {
           S: JSON.stringify(this.data)
@@ -59,7 +59,7 @@ var store = (function() {
             S: session.user.userId
           },
           appName: {
-            S: 'HelloFed'
+            S: 'HelloWorld'
           }
         }
       }, function (err, data) {

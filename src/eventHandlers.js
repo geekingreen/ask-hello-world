@@ -17,8 +17,8 @@ exports.register = function (eventHandlers) {
           var reprompt;
 
           if (storage.isEmptyList()) {
-            speechOutput += 'Let\'s get started by adding some names...';
-            reprompt = 'Please tell me a name of a Fed.';
+            speechOutput += 'Let\'s get started by adding some names... You can say add John, or say hello.';
+            reprompt = 'Please add a name.';
           } else {
             speechOutput += 'You currently have ' + storage.data.names.length + ' names. What would you like to do?';
             reprompt = 'You can say something like, add John, or say hello.';
