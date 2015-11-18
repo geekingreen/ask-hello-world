@@ -1,0 +1,27 @@
+{
+  "intents": [{
+    "intent": "AddNameIntent",
+    "slots": [{
+      "name": "Name",
+      "type": "LIST_OF_NAMES"
+    }]
+  }, {
+    "intent": "SayHelloIntent",
+    "slots": []
+  }, {
+    "intent": "ResetIntent",
+    "slots": []
+  }, {
+    "intent": "PlayMusicIntent",
+    "slots": []
+  }, {
+    "intent": "AMAZON.HelpIntent",
+    "slots": []
+  }, {
+    "intent": "AMAZON.CancelIntent",
+    "slots": []
+  }, {
+    "intent": "AMAZON.StopIntent",
+    "slots": []
+  }]
+}

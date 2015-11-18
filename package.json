@@ -1,0 +1,8 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "description": "Hello World Example",
+  "scripts": {
+    "build": "cd src; zip -r ../hello-world ."
+  }
+}

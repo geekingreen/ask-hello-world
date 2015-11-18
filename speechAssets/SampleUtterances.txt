@@ -1,0 +1,15 @@
+AddNameIntent add {Name}
+AddNameIntent add {Name} to the list
+
+SayHelloIntent say hello
+SayHelloIntent tell everyone hello
+SayHelloIntent tell everyone hi
+SayHelloIntent greet everyone
+SayHelloIntent i'm finished
+
+ResetIntent clear names
+ResetIntent remove names
+ResetIntent delete names
+
+PlayMusicIntent play a song
+PlayMusicIntent play music
