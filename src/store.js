@@ -16,7 +16,7 @@ var store = (function() {
   }
 
   Store.prototype.isEmptyList = function() {
-    return this.data.length === 0;
+    return this.data.names.length === 0;
   };
 
   Store.prototype.save = function(cb) {
